@@ -3,40 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "axios": "^0.7.0",
-    "classnames": "^2.1.5",
-    "express": "^4.13.3",
-    "history": "1.13.0",
+    "@fortawesome/fontawesome-free-regular": "^5.0.13",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-brands-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "classnames": "^2.2.6",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-mdl": "^1.11.0",
     "react-redux": "^7.1.0",
     "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "react-typist": "^2.0.5",
-    "redux": "^4.0.4",
-    "redux-router": "^2.1.2",
-    "redux-thunk": "^2.3.0"
+    "redux": "^4.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-    "babel": "^6.23.0",
-    "babel-core": "^5.8.22",
-    "babel-plugin-react-transform": "^1.1.0",
-    "babel-runtime": "^5.8.20",
-    "css-loader": "^0.9.0",
-    "extract-text-webpack-plugin": "^0.8.2",
-    "file-loader": "0.8.5",
-    "merge": "^1.2.0",
-    "react-transform-hmr": "^1.0.0",
-    "redux-devtools": "^2.1.5",
-    "redux-logger": "^2.0.2",
-    "style-loader": "^0.8.0",
-    "url-loader": "^0.5.6"
   },
   "eslintConfig": {
     "extends": "react-app"
