@@ -27,15 +27,8 @@
   overflow: hidden;
   position: relative;
 }
-
-
-
-
-
-
-.Typist {
-  min-height: 389px;
-}
+ 
+ 
 .header__media {
   position: absolute;
   width: 3rem;
@@ -214,7 +207,7 @@
 @media (min-width: 35.9375em){
   .banner-text {
     opacity: .8;
-    margin:  auto;
+    margin: 20% auto;
   }
   .banner-text h1 {
     font-size: 30px; 
@@ -241,8 +234,12 @@
       padding-top: 5.5rem;
       padding-bottom: 11rem;
       background-size: 120vw 120vw, 90vw 90vw, auto;
-    background-position: top 40vw center, top 55vw center, center;
- 
+      background-position: top 40vw center, top 55vw center, center;
+  }
+
+  .banner-text {
+    opacity: .8;
+    margin: auto;
   }
 }
 

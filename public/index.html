@@ -36,4 +36,12 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+  var duration = 7000,
+      steps = 3,
+      step = 1;
+  setInterval(function () {
+    document.getElementById('#animation').setAttribute('data-animation-step', step = ++step > steps ? 1 : step);
+  }, duration / steps);
+</script>
 </html>
