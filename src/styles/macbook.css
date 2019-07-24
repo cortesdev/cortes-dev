@@ -295,7 +295,7 @@
             background: #3bdeff;
             position: absolute;
             left: -50px;
-            bottom: -220%;
+            bottom: -95px;
             border-bottom-left-radius: 1vw 1vw;
             border-bottom-right-radius: 1vw 1vw; 
         }
@@ -435,7 +435,9 @@
         animation-iteration-count: 1;
     }
 
-
+    .animation .device .macbook .body {
+        bottom: -40px;
+    }
 }
 
 
@@ -445,9 +447,9 @@
         float: left;
         width: 100%;
     }
-    .macbook .body {
-        bottom: -68%;
-    }
+
+
+
     .animation {
         display: inline-block;
         position: relative;
