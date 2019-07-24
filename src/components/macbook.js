@@ -11,28 +11,27 @@ setInterval( function() {
 class Macbook extends Component {
   render() {
     return(
-
       <div class="animation" data-animation-step="1">
         <div class="device">        
           <div class="phone-home-button"></div>
           <div class="tablet-home-button"></div>
-          <div class="screen-stand"><div class="leg"></div><div class="foot"></div></div>
-          <div className="macbook">           
-              <div className="body"></div>
-          </div>
+          <div className="macbook"> 
+            <div className="macbook-display">
+              <div class="camera"></div>
+              <div class="macbook-screen"></div> 
+                <div className="body"></div>
+              </div>
+            </div>
           <div class="display">
-              <div class="slide1"> 
-                  <div class="macbook-screen">
-                        <div class="macbook-screen__bg"></div>
-                  </div>
-                </div> 
-              <div class="slide2"><div>Websites ready for <em>tablets</em></div></div>
-              <div class="slide3"><div>Websites ready for <em>phones</em></div></div>
-              <div class="slide4"><div>Websites ready for <em>web</em></div></div>
+            <div class="slide1">
+              <div class="macbook-screen__bg"></div>
+              <div>Recent <em>frameworks</em></div>
+            </div> 
+            <div class="slide2"><div> Progressive  <em>enhancement</em></div></div>
+            <div class="slide3"><div>React native <em>Apps</em></div></div>
           </div>
-      </div>
-		</div>
-    
+        </div>
+	  	</div>    
     )
   }
 }

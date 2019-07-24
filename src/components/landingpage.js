@@ -9,6 +9,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Typist from 'react-typist';
 import Macbook from './macbook';
 
+
 class Landing extends Component {
   render() {
     return(
@@ -18,19 +19,19 @@ class Landing extends Component {
               <Container>
                 <Row>
                   <Col md={5} xl={6}>
-                    <Typist>
+                    <Typist avgTypingSpeed={10} cursor={{ show: false  }}>
                       <h1>Sup?  &nbsp; 
-                      <Typist.Delay ms={700} />
-                      I’m Ricci Cortes, 
-                      <Typist.Delay ms={1000} />
-                      <br/>I'm a software engineer Based in
+                      <Typist.Delay ms={500} />
+                      I’m Ricci, 
+                      <Typist.Delay ms={600} />
+                      <br/>I'm a software engineer Based in<br/>
                       Rio de J
                       <Typist.Backspace count={8} delay={200} />
-                      <Typist.Delay ms={500} />
+                      <Typist.Delay ms={200} />
                       Berlin
                     </h1>      
                     <p className="tech">I've been working with the following technologies: <br/>
-                      <span className="tech-stack">HTML/CSS | JavaScript | React | React Native | NodeJS </span></p>
+                      <span className="tech-stack">HTML/CSS | JavaScript | React | React Native | NodeJS</span></p>
                     </Typist>                  
                   </Col>        
                   <Col md={7} xl={6} className="u-my-auto">
@@ -40,9 +41,9 @@ class Landing extends Component {
               </Container>
                 <div className="header__media">
                     <ul className="social__list">
-                        <li className="social__item"><a className="social__link social__link--linkedin" href="https://www.linkedin.com/in/cortesdev/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a></li>
-                        <li className="social__item"><a className="social__link social__link--github" href="https://github.com/cortesdev" target="_blank"><FontAwesomeIcon icon={faGithub} /></a></li>
-                        <li className="social__item"><a className="social__link social__link--codepen" href="http://www.codepen.com/corteric" target="_blank"><FontAwesomeIcon icon={faCodepen} /></a></li>
+                        <li className="social__item"><a className="social__link social__link--linkedin" href="https://www.linkedin.com/in/cortesdev/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                        <li className="social__item"><a className="social__link social__link--github" href="https://github.com/cortesdev" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></li>
+                        <li className="social__item"><a className="social__link social__link--codepen" href="http://www.codepen.com/corteric" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faCodepen} /></a></li>
                     </ul>
                 </div>
               </div>

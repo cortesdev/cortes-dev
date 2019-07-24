@@ -54,7 +54,10 @@
 .header__media .social__list {
   font-size: 2.56rem;
 }
-
+.svg-inline--fa {
+  display: inline-block;
+  font-size: 23px;
+}
 .social__item {
   display: inline-block;
   line-height: 1;
@@ -97,7 +100,7 @@
 }
 
 .tech-stack {
-  font-size: 1.05rem;
+  font-size: 1.22rem;
 }
 
 .triangle {
@@ -173,13 +176,14 @@
 }
 
 .banner-text {
-  opacity: .8;
+  opacity: 1;
   width: 75%;
   margin: 150px 75px;
   border-radius: 10px;
 }
 
 .banner-text h1 {
+  display: inline-block;
   font-size: 36px;
   width: 100%;
   padding: 20px 20px 0;
@@ -188,6 +192,7 @@
 }
 
 .banner-text p {
+  display: inline-block;
   color: white;
   width: 100%;
   font-size: 18px;
@@ -252,7 +257,9 @@
   }
 
   .Typist {
-    min-height: auto;
+     display: inline-block;
+     margin-top: 60px;
+     color: white;
   }
 }
 @media (min-width: 61.9375em) {

@@ -2,13 +2,10 @@ import React, { Component } from 'react';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import './App.css';
 
-import { BrowserRouter, Route, NavLink } from 'react-router-dom'
-
+ 
 import Main from './components/main';
 import { Link } from 'react-router-dom';
-import { faBurger } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+ 
 import logo from './images/logo.png';
 
 class App extends Component {

@@ -4,9 +4,6 @@ import '../styles/resume.css';
 import { faLinkedin, faGithub, faCodepen } from '@fortawesome/free-brands-svg-icons'
 import { faBriefcase, faUser, faArchive, faRocket, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
- 
- 
-import Main from './main';
 import { Link } from 'react-router-dom';
 
 class Resume extends Component {
