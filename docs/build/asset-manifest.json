@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.4805baa6.chunk.css",
-    "main.js": "/static/js/main.d30832d7.chunk.js",
-    "main.js.map": "/static/js/main.d30832d7.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.35d8b825.chunk.css": "/static/css/2.35d8b825.chunk.css",
-    "static/js/2.dcc16cde.chunk.js": "/static/js/2.dcc16cde.chunk.js",
-    "static/js/2.dcc16cde.chunk.js.map": "/static/js/2.dcc16cde.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.31a42825aef3f13667f82c86f2d5ce42.js": "/precache-manifest.31a42825aef3f13667f82c86f2d5ce42.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.35d8b825.chunk.css.map": "/static/css/2.35d8b825.chunk.css.map",
-    "static/css/main.4805baa6.chunk.css.map": "/static/css/main.4805baa6.chunk.css.map",
-    "static/media/App.css": "/static/media/oval.e838ed4f.svg",
-    "static/media/resume.css": "/static/media/rightbg.6cb0c995.jpg",
-    "static/media/macbook.css": "/static/media/swift.8fad4618.svg"
+    "main.css": "/cortes-dev/static/css/main.df20579f.chunk.css",
+    "main.js": "/cortes-dev/static/js/main.dabaab69.chunk.js",
+    "main.js.map": "/cortes-dev/static/js/main.dabaab69.chunk.js.map",
+    "runtime~main.js": "/cortes-dev/static/js/runtime~main.c4216ff7.js",
+    "runtime~main.js.map": "/cortes-dev/static/js/runtime~main.c4216ff7.js.map",
+    "static/css/2.35d8b825.chunk.css": "/cortes-dev/static/css/2.35d8b825.chunk.css",
+    "static/js/2.dcc16cde.chunk.js": "/cortes-dev/static/js/2.dcc16cde.chunk.js",
+    "static/js/2.dcc16cde.chunk.js.map": "/cortes-dev/static/js/2.dcc16cde.chunk.js.map",
+    "index.html": "/cortes-dev/index.html",
+    "precache-manifest.52fe88e3a312cb377d791706ef5571b4.js": "/cortes-dev/precache-manifest.52fe88e3a312cb377d791706ef5571b4.js",
+    "service-worker.js": "/cortes-dev/service-worker.js",
+    "static/css/2.35d8b825.chunk.css.map": "/cortes-dev/static/css/2.35d8b825.chunk.css.map",
+    "static/css/main.df20579f.chunk.css.map": "/cortes-dev/static/css/main.df20579f.chunk.css.map",
+    "static/media/App.css": "/cortes-dev/static/media/oval.e838ed4f.svg",
+    "static/media/resume.css": "/cortes-dev/static/media/rightbg.6cb0c995.jpg",
+    "static/media/macbook.css": "/cortes-dev/static/media/swift.8fad4618.svg"
   }
 }
